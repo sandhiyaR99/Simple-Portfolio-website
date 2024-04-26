@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 30px;
+    background-color: #EED5B3;
+
+}
+
+.section1 {
+    background-color: #AC8969;
+    color: #262939;
+    padding: 20px;
+    text-align: center;
+    border-radius: 18px;
+    border: white 2px solid;
+
+}
+
+.section1__contact a {
+    background-color: wheat;
+    color: #875D37;
+    text-decoration: none;
+    border: 2px #262939 solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+.section1__contact {
+    margin-top: 8px;
+
+
+}
+
+.section1__name {
+    font-size: 40px;
+
+}
+
+.section1__role {
+    font-size: 20px;
+
+}
+
+.section2,
+.section3,
+.section4,
+.section5 {
+    margin: 20px;
+    color: #262939;
+}
+
+.section2__desc,
+.section3__desc,
+.section4__desc,
+.section5__desc {
+    margin: 10px;
+}
+
+.section34{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section3__desc li,
+.section4__desc li {
+    list-style: none;
+}
+
+.section3,
+.section4 {
+    background-color: wheat;
+    display: inline-block;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.section3__desc li,
+.section4__desc li {
+    padding: 5px;
+}
+
+.section3__title,
+.section4__title {
+    margin: 5px;
+}
+
+.section5 {
+    background-color: #AC8969;
+    color: #262939;
+    padding: 15px;
+    border-radius: 18px;
+    text-align: center;
+    border: white 2px solid;
+
+}
+
+.section5 a {
+    color: black;
+}
+
+.formcontainer {
+    padding: 20px;
+    color: #262939;
+}
+
+.formcontainer__input,
+.formcontainer__textarea,
+.formcontainer__submit {
+    margin-top: 10px;
+}
+
+.formcontainer__input {
+    padding: 10px;
+    border-style: none;
+    border-bottom: solid #875D37;
+}
+
+.formcontainer__textarea {
+    padding: 10px;
+    border-style: none;
+    border: solid #875D37;
+}
+
+.formcontainer__submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px #262939 solid;
+    border-radius: 8px;
+
+}
